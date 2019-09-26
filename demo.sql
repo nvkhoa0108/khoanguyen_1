@@ -1,34 +1,4 @@
-select * from qni_admin.user_menu a, qni_admin.menu b
-where a.menu_Id = b.id
 
-select * from qni_admin.menu
-where id =17
-
-
----
-
-select menu_Id, userid from qni_admin.user_menu
-group by menu_Id, userid
-having count(*) >1
-
-
-select * from qni_gdkh.v_nhanvien_type
-where manv_tct ='CTV041640'
-
-select * from
-
-update qni_gdkh.qldv_nhanvien@link_dbttkd set manv_tct ='CTV041640'
-where manv_id  =01007
-
-commit
-
-
-where menu_Id= 35
-
-
-select * from qni_admin.user_menu
-where menu_Id=
-17
 
 
 
