@@ -13,3 +13,5 @@ select a.*, c.ho_ten, c.phongban, c.manv_Id, b.thang_nam from (
 where upper(a.ma_tb) = b.sm_account(+) and b.manv_Id= c.manv_Id(+)
 
 
+---- This demo
+select * from dual
